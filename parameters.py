@@ -5,7 +5,7 @@ params = {}
 
 def init():
     # paths
-    params['data_dir'] = 'data/'
+    params['data_dir'] = 'data'
     params['tb_dir'] = 'tb/'
     params['check_dir'] = 'checkpoints/'
 
