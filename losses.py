@@ -3,8 +3,8 @@ from tensorflow.keras.applications import vgg19
 from tensorflow.keras.models import Model
 import time
 from pose3d_minimal.main import predict_pose3d
-
-tfgan = tf.contrib.gan
+import tensorflow_gan as tfgan
+#tfgan = tf.contrib.gan
 
 perception_model = None
 
