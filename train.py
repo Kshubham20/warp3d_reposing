@@ -11,8 +11,9 @@ import matplotlib.pyplot as plt
 import time
 from parameters import params
 import numpy as np
+import tensorflow_gan as tfgan
 
-tfgan = tf.contrib.gan
+#tfgan = tf.contrib.gan
 backend = tf.keras.backend
 
 
