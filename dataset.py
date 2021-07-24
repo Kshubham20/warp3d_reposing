@@ -463,7 +463,7 @@ class Dataset:
 
     def load(self, keys):
 
-        img = '/'.join([params['data_dir'], self.name, 'images'] + keys) + '.png'
+        img = '/'.join([params['data_dir'], self.name, 'images'] + keys) + '.jpg'
         # print(img)
         img = np.array(imread(img), dtype=np.float32)
         img = img / 127.5 - 1
